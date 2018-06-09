@@ -88,24 +88,70 @@ a {
   height: 200px;
 }
 
-.flavors span {
-  padding: 10px 0;
-}
-
 .teas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .flavors {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 0 10px;
+}
+
+.flavors span {
+  margin: 10px 0;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.locations h3 {
+  text-align: center;
+  height: 30px;
+  margin: 55px 0 15px 0;
+}
+
+.loc-box {
+  display: flex;
+  justify-content: center;
+}
+
+.loc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.loc h3 {
+  margin: 0;
+}
+
+.about {
+  text-align: center;
+  height: 200px;
+}
+
+.about h2 {
+  margin: 15px 0 45px 0;
 }
 
 /* Footer Section */
 
-footer {
-
+footer .copyright {
+  margin-left: 20px;
 }
